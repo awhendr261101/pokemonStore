@@ -21,3 +21,10 @@ img{
 :is(h2){
     text-align: center;
 }
+
+body{
+    display: grid;
+    grid-template-rows: auto minmax(100%, 100dvh) auto; /* Number of rows */
+}
+
+
