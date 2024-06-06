@@ -11,8 +11,13 @@
     }
 }
 
+/* all images */
 img{
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
+}
+
+:is(h2){
+    text-align: center;
 }
