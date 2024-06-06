@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style Navbar */
+.navbar {
+    & img[alt="logo"]{
+        width: 5rem;
+    }
+}
+
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
